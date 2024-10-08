@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 300;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 25px;
+    font-weight: 300;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* media for fonts  992px*/
+@media (max-width: 992px){
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+}
+
+/* media for font 500px */
+@media (max-width: 500px){
+    h1{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .shopfav{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 450px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+    .shopfav{
+        font-size: 25px;
+    }
+    
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    p{
+        font-size: 13px;
+    }
+}
+
+
+
+/* navbar */
+
+.navbar{
+    width: 100%;
+    display: flex;
+    /* background-color: red; */
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.navlinks{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    list-style-type: none;
+}
+
+.links li{
+    padding: 0px 20px;
+}
+.links li a{
+    text-decoration: none;
+    color: bLACK;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.frais{
+    border: 5px solid black;
+    display: inline-flex;
+    padding: 0px 30px;
+}
+
+.medias{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.search{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+    padding: 10px 0px 10px 20px;
+    /* position: relative; */
+}
+.inputs{
+    height: 100%;
+    position: relative;
+    display: inline-flex;
+}
+
+.inputs::before{
+    content: "";
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    background-image: url(./search-interface-symbol.png);
+    background-size: cover;
+    left: 0;
+    top: 25%;
+    z-index: 1;
+}
+
+.medialink{
+    display: flex;
+    list-style-type: none;
+}
+.medialink li{
+    padding: 0px 20px;
+}
+
+
+.navlinks img{
+    height: 30px;
+    display: none;
+}
+
+
+
+
+/* section1 */
+
+.section1{
+    height: 100vh;
+ 
+}
+
+.hero{
+    width: 70%;
+    height: 100%;
+    background-image: url(./circle-wood-podium-tropical-forest-product-presentation-cream-color-background.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+}
+
+.hero-content{
+    /* background-color: white; */
+    width: 80%;
+    position: absolute;
+    right: -200px;
+
+}
+
+.butns{
+    padding: 8px 30px;
+    border: 1px solid #5e5e4a;
+    background-color: #5e5e4a;
+    color: white;
+}
+
+
+/* section2 */
+.shopfav{
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.section2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section2-text{
+    width: 30%;
+    padding-top: 50px;
+}
+
+.section2-text p{
+    margin: 30px 0px;
+    line-height: 30px;
+}
+.section2-image{
+    width: 30%;
+}
+
+.section2-image video{
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.butnss{
+    padding: 8px 30px;
+    border: 1px solid #5e5e4a;
+    background-color: white;
+    color: #5e5e4a;
+}

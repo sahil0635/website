@@ -1,0 +1,98 @@
+@media (max-width: 1204px){
+    .links li{
+        padding: 0px 15px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1040px){
+    .links{
+        display: none;
+    }
+    .medialink{
+        display: none;
+    }
+    .navlinks img{
+        height: 30px;
+        display: block;
+    }
+
+
+
+
+    /* section1 */
+
+    .hero-content{
+        width: 100%;
+    }
+}
+
+@media (max-width:880px){
+    .section2-text, .section2-image{
+        width: 45%;
+    }
+}
+
+@media (max-width: 726px){
+    .frais{
+        padding: 0px 15px;
+        border: 3px solid black;
+    }
+    .navlinks img{
+        height: 20px;
+    }
+    
+    
+    /* section1 */
+    
+    .hero-content{
+        right: -100px;
+        width: 118%;
+    }
+
+}
+
+
+@media (max-width: 595px){
+    .hero{
+        width: 100%;
+        color: white;
+    }
+    .hero-content{
+        width: 100%;
+        right: 0px;
+        text-align: center;
+
+    }
+
+
+
+
+    .section2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shopfav{
+        margin: 50px 0px;
+    }
+    
+
+    .section2-text, .section2-image{
+        width: 80%;
+        text-align: center;
+    }
+    .section2-text{
+        margin-bottom: 50px;
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 450px){
+    .medias{
+        display: none;
+    }
+    .navlinks, .logo{
+        width: 50%;
+    }
+}
